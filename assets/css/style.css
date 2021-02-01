@@ -1179,3 +1179,12 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+
+.img-fluid {
+  transition: transform .3s; 
+}
+
+.img-fluid:hover {
+  transform: scale(1.1); 
+}
